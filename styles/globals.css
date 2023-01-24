@@ -1,0 +1,39 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+
+	color: var(--black);
+	background: var(--background);
+
+	font-family: var(--font-family);
+}
+
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--black: #3B434E;
+
+	--grey-light: #EBEBEB;
+	--grey-light-hover: #EBEBEB;
+	
+	--white: white;
+	--primary: #7653FC;
+	--primary-hover: #432AA4;
+	--red: #FC836D;
+
+	--green: #1DC37E;
+	--green-light: #C8F8E4;
+
+	--background: #F5F6F8;
+	--font-family: "Noto Sans", sans-serif;
+	--transition: 0.3s;
+}

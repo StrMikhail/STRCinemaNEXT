@@ -1,0 +1,43 @@
+.list{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.card{
+	margin-bottom: 20px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 10px;
+	align-items: stretch;
+}
+.image{
+	max-width: 130px;
+}
+.about{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: ;
+	gap: 5px;
+}
+.rating{
+	display: flex;
+	align-items: center;
+}
+.name{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.subname{
+	color: var(--green)
+}
+
+@media (max-width: 1000px) {
+	.image {
+		/* width: 0px; */
+	}
+	.list{
+		grid-template-columns: auto;
+	}
+}
